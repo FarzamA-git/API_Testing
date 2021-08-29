@@ -1,0 +1,22 @@
+1-User is registering and logging in through blade.
+
+2-After that create websites.
+
+3-User will subscribe the website. For that you have to enter the user_id manually like this:
+{
+    "user_id":2
+}
+with this URL.
+http://127.0.0.1:8000/api/assignWeb/{website_id}
+
+4- When post will be created in a website. Email will be sent to all subscribers of that website with Post Title and description.
+
+5- Website API's are in api.php and Posts API's are in postApi.php
+Requirements
+i-In app/mail/config.php
+ii-Enter your Email in place of sample@gmail.com 
+and your name 
+and password
+iii-Enter your email and password in .env file in front of these places.
+MAIL_USERNAME=
+MAIL_PASSWORD=
